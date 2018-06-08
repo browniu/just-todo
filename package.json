@@ -1,0 +1,33 @@
+{
+  "name": "13.pure",
+  "version": "1.0.0",
+  "description": "doSomethings",
+  "main": "postcss.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bui": "cross-env NODE_ENV=production webpack --mode production --config webpack.config.js",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --mode development --config webpack.config.js"
+  },
+  "author": "browniu",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^8.6.0",
+    "cross-env": "^5.1.6",
+    "css-loader": "^0.28.11",
+    "eslint-plugin-html": "^4.0.3",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "postcss-loader": "^2.1.5",
+    "style-loader": "^0.21.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "url-loader": "^1.0.1",
+    "vue": "^2.5.16",
+    "vue-loader": "^15.2.4",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^4.11.1",
+    "webpack-cli": "^3.0.2",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
