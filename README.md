@@ -1,5 +1,3 @@
 # just-todo
-A small exercise using vue+webpack+npm
-init
-npm install
-over!
+
+第一个Vue工程 初次见面，请多指教～
