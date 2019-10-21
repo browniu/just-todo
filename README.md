@@ -1,6 +1,6 @@
 # just-todo
 
-> 第一次使用前端框架开发的todolist应用
+> 正式踏入前端之旅
 
 ## demo
 
